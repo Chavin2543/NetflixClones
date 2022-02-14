@@ -11,6 +11,17 @@
 		3A8EC71827B45B1400CAED9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EC71727B45B1400CAED9F /* ContentView.swift */; };
 		3A8EC71A27B45B1400CAED9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8EC71927B45B1400CAED9F /* Assets.xcassets */; };
 		3A8EC71D27B45B1400CAED9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8EC71C27B45B1400CAED9F /* Preview Assets.xcassets */; };
+		3A8EC72727B460EB00CAED9F /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A8EC72627B460EB00CAED9F /* Montserrat-Regular.ttf */; };
+		3A8EC72927B460F800CAED9F /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A8EC72827B460F800CAED9F /* Montserrat-Bold.ttf */; };
+		3AD51CE827B67A95003319A0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD51CE727B67A95003319A0 /* MainView.swift */; };
+		3AD51CEA27B67B8C003319A0 /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD51CE927B67B8C003319A0 /* TabModel.swift */; };
+		3AD51CEC27B67C5C003319A0 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD51CEB27B67C5C003319A0 /* SearchView.swift */; };
+		3AD51CEE27B67C63003319A0 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD51CED27B67C63003319A0 /* ComingSoonView.swift */; };
+		3AD51CF027B67C6C003319A0 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD51CEF27B67C6C003319A0 /* DownloadView.swift */; };
+		3AD51CF227B67C73003319A0 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD51CF127B67C73003319A0 /* MoreView.swift */; };
+		3AD51CF427B67E8F003319A0 /* MovieCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD51CF327B67E8F003319A0 /* MovieCarousel.swift */; };
+		3AD51CF627B67EAE003319A0 /* MovieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD51CF527B67EAE003319A0 /* MovieCard.swift */; };
+		3AD51CF827B6AE99003319A0 /* MoviesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD51CF727B6AE99003319A0 /* MoviesItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		3A8EC71727B45B1400CAED9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A8EC71927B45B1400CAED9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8EC71C27B45B1400CAED9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A8EC72527B45E4700CAED9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A8EC72627B460EB00CAED9F /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		3A8EC72827B460F800CAED9F /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		3AD51CE727B67A95003319A0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3AD51CE927B67B8C003319A0 /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		3AD51CEB27B67C5C003319A0 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3AD51CED27B67C63003319A0 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
+		3AD51CEF27B67C6C003319A0 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		3AD51CF127B67C73003319A0 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		3AD51CF327B67E8F003319A0 /* MovieCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCarousel.swift; sourceTree = "<group>"; };
+		3AD51CF527B67EAE003319A0 /* MovieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCard.swift; sourceTree = "<group>"; };
+		3AD51CF727B6AE99003319A0 /* MoviesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +74,20 @@
 		3A8EC71427B45B1400CAED9F /* NetflixClone */ = {
 			isa = PBXGroup;
 			children = (
+				3A8EC72527B45E4700CAED9F /* Info.plist */,
 				3A8EC71527B45B1400CAED9F /* NetflixCloneApp.swift */,
+				3AD51CE927B67B8C003319A0 /* TabModel.swift */,
+				3AD51CF727B6AE99003319A0 /* MoviesItem.swift */,
 				3A8EC71727B45B1400CAED9F /* ContentView.swift */,
+				3AD51CEB27B67C5C003319A0 /* SearchView.swift */,
+				3AD51CED27B67C63003319A0 /* ComingSoonView.swift */,
+				3AD51CEF27B67C6C003319A0 /* DownloadView.swift */,
+				3AD51CF327B67E8F003319A0 /* MovieCarousel.swift */,
+				3AD51CF527B67EAE003319A0 /* MovieCard.swift */,
+				3AD51CF127B67C73003319A0 /* MoreView.swift */,
+				3AD51CE727B67A95003319A0 /* MainView.swift */,
+				3A8EC72827B460F800CAED9F /* Montserrat-Bold.ttf */,
+				3A8EC72627B460EB00CAED9F /* Montserrat-Regular.ttf */,
 				3A8EC71927B45B1400CAED9F /* Assets.xcassets */,
 				3A8EC71B27B45B1400CAED9F /* Preview Content */,
 			);
@@ -125,6 +160,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8EC72927B460F800CAED9F /* Montserrat-Bold.ttf in Resources */,
+				3A8EC72727B460EB00CAED9F /* Montserrat-Regular.ttf in Resources */,
 				3A8EC71D27B45B1400CAED9F /* Preview Assets.xcassets in Resources */,
 				3A8EC71A27B45B1400CAED9F /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD51CF627B67EAE003319A0 /* MovieCard.swift in Sources */,
+				3AD51CEC27B67C5C003319A0 /* SearchView.swift in Sources */,
+				3AD51CF427B67E8F003319A0 /* MovieCarousel.swift in Sources */,
 				3A8EC71827B45B1400CAED9F /* ContentView.swift in Sources */,
+				3AD51CEA27B67B8C003319A0 /* TabModel.swift in Sources */,
+				3AD51CF827B6AE99003319A0 /* MoviesItem.swift in Sources */,
+				3AD51CE827B67A95003319A0 /* MainView.swift in Sources */,
+				3AD51CF027B67C6C003319A0 /* DownloadView.swift in Sources */,
+				3AD51CEE27B67C63003319A0 /* ComingSoonView.swift in Sources */,
 				3A8EC71627B45B1400CAED9F /* NetflixCloneApp.swift in Sources */,
+				3AD51CF227B67C73003319A0 /* MoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +318,7 @@
 				DEVELOPMENT_TEAM = 47S2WPRHZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetflixClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +348,7 @@
 				DEVELOPMENT_TEAM = 47S2WPRHZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetflixClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
